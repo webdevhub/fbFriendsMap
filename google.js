@@ -42,7 +42,7 @@ function code()
 {
   friend = my_arr[global_index];
 
-  if(friend.location=="--")
+  if(friend.location=="--" || friend.location=="null")
   { 
        if(global_index<friends.length)
        { friendLoaded++;
